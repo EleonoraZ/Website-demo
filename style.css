@@ -1,0 +1,30 @@
+
+	div{
+		width: 50%;
+		float: left;
+	}
+	h1{ 
+		color: blue;
+	}
+	p{
+		margin-top: 50px;
+	}
+	p, ul, ol {
+		color: green;
+	}
+	img{
+		width: 100%; /*kan px, em, vw etc gebruiktn. Maak responsive!*/
+	}
+	#heading {
+		font-size: 50px;
+	}
+	.paragraph {
+		font-style: italic;
+	}
+	p.paragraph.introduction.featured { /*not working!!*/
+		padding-left: 20px
+	}
+	div ul li{
+		background: red;
+	}
+	
